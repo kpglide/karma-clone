@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+nav {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 100%; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+  	width: 46rem;
+    height: 4.7rem;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.top-navigation .logo {
+	height: 4.3em;
+}
+
+.top-navigation .links {
+	float: right;
+	margin-top: 25px;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.links li {
+	display: inline-block;
+	margin-left: 1.56rem;
+}
+
+.links li:hover {
+	color: #505050;
+	cursor: pointer;
+}
